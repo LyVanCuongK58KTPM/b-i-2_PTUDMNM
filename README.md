@@ -20,7 +20,7 @@ b. Phpmyadmin: để soi được csdl (chỉ để xem, ko cần tạo bảng t
 c. Django: build 1 docker container (dùng Dockerfile): trên nền python, sử dụng django, nhớ mount thư mục để dễ edit, edit dùng: sudo nano ten_file
   - Tạo 1 thư mục riêng cho Django:
     <img width="767" height="22" alt="image" src="https://github.com/user-attachments/assets/12257926-06fb-4bd1-9883-66e72b89db04" />
-  - Dùng "sudo nano django_app/requirements.txt" <bash>
+  - Dùng "<bash>sudo nano django_app/requirements.txt</bash>"
 
 sau khi có 3 service này trong file docker-compose.yml :
 
