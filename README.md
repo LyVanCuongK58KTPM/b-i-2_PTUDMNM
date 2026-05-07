@@ -40,7 +40,8 @@ d. Chạy docker compose và cấu hình file setting.py để Django nhận csd
 - Cấu hình trang admin:<br>
   <img width="1472" height="752" alt="image" src="https://github.com/user-attachments/assets/fdccc0ad-f7bc-4bee-8e89-125f18f912f7" /><br>
 - kết hợp ssh để chạy lệnh tác động vào django và sudo nano để edit file:<br>
-  <img width="1466" height="301" alt="image" src="https://github.com/user-attachments/assets/3d04eeac-c98e-40d8-bbc3-eaec66a363bf" /><br>
+
+ 
 
 ===> KQ được:trang admin, y/c đăng nhập vào trang admin: cho phép thêm sửa xoá dữ liệu các bảng. các trường là khoá ngoại chỉ việc chọn text (mặc dù là csdl tại trường FK đó lưu ID của PK mà nó tham chiếu : sử dụng phpmyadmin để kiểm chứng)<br>
   <img width="1830" height="845" alt="image" src="https://github.com/user-attachments/assets/3b82eace-eca4-400f-9175-d49cebe6fc7d" /><br>
