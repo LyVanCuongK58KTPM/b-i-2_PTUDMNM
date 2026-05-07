@@ -17,6 +17,8 @@ Ngày làm: 07/05/2026<br>
 a. Mariadb : chứa csdl của hệ thống này<br>
 b. Phpmyadmin: để soi được csdl (chỉ để xem, ko cần tạo bảng từ đây, django sẽ làm hết)<br>
     <img width="1445" height="751" alt="image" src="https://github.com/user-attachments/assets/44828080-fa47-43ed-b432-c982e71fe562" /><br>
+    <img width="1776" height="725" alt="image" src="https://github.com/user-attachments/assets/84dd66f8-2748-4661-8910-d2f898192338" /><br>
+
 
 c. Django: build 1 docker container (dùng Dockerfile): trên nền python, sử dụng django, nhớ mount thư mục để dễ edit, edit dùng: sudo nano ten_file<br>
   - Tạo 1 thư mục riêng cho Django:<br>
@@ -44,8 +46,8 @@ d. Chạy docker compose và cấu hình file setting.py để Django nhận csd
  
 
 ===> KQ được:trang admin, y/c đăng nhập vào trang admin: cho phép thêm sửa xoá dữ liệu các bảng. các trường là khoá ngoại chỉ việc chọn text (mặc dù là csdl tại trường FK đó lưu ID của PK mà nó tham chiếu : sử dụng phpmyadmin để kiểm chứng)<br>
-  <img width="1830" height="845" alt="image" src="https://github.com/user-attachments/assets/3b82eace-eca4-400f-9175-d49cebe6fc7d" /><br>
   <img width="1780" height="746" alt="image" src="https://github.com/user-attachments/assets/26c04f42-c070-45fb-b639-17a2bfb3fe06" /><br>
+  <img width="1830" height="845" alt="image" src="https://github.com/user-attachments/assets/3b82eace-eca4-400f-9175-d49cebe6fc7d" /><br>
   <img width="1896" height="725" alt="image" src="https://github.com/user-attachments/assets/978c0aea-913e-4379-8757-4b4bf8f834d0" /><br>
   <img width="1518" height="556" alt="image" src="https://github.com/user-attachments/assets/a87d66d0-8a35-42ea-9534-f15810ec3394" /><br>
   <img width="1913" height="816" alt="image" src="https://github.com/user-attachments/assets/53e12708-0cd2-4d06-93e7-7142fdde70a7" /><br>
